@@ -31,6 +31,8 @@
         <a>Повторите пароль:</a></br>
         <input type="password" name="chkPwd"/> </br>
         <button>Go</button> </br>
+        </br>
+        <a>Автор: Скорин Владислав (CYB-4)</a>
     </form>
 
 

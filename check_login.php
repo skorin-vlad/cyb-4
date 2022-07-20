@@ -49,8 +49,10 @@ $numRows = mysqli_num_rows($result);
 if($numRows == 0) {echo "<h1> Sorry, wrong login/password!</h1>";}
 
 else {
-	echo "<h1>Hello, $user</h1>";
+	echo "<h1>Здравствуйте, $user</h1>!";
+	echo "<a>Перенаправление на гравную страницу</a>!";
 	$_SESSION["user"] = $user;
+	echo '<meta http-equiv="refresh" content= "2; url=index.html" />';
 }
 
 
